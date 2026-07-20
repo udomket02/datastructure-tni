@@ -86,7 +86,6 @@ public class LinkedList {
 			current_node = current_node.next;
 			lenght_node++;
 		}
-
 		return lenght_node;
 	}
 	

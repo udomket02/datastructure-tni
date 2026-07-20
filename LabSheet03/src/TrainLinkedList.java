@@ -31,8 +31,6 @@ public class TrainLinkedList {
 		System.out.println("Total Station : " + greenline.length());
 		System.out.println("All Stations : " + greenline.traversal());
 		
-		
-
 	}
 
 }

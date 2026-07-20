@@ -13,6 +13,6 @@ public class Node {
 
 	// Method for returning the pointer address of node
 	public static String getAddress(Node node) {
-		return (node == null) ? "null" : node.getAddress();
+		return (node == null) ? "null" : node.getAddress();      
 	}
 }

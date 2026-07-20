@@ -37,5 +37,6 @@ public class TestLinkedNode {
 	    System.out.print("\nNode 2 point to => " + Node.getAddress(node2));
 	    System.out.print("\nNode 3 point to => " + Node.getAddress(node3));
 	    System.out.print("\nNode 4 point to => " + Node.getAddress(node4));
+	    
 	}
 }
