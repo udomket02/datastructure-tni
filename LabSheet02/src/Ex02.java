@@ -18,4 +18,7 @@ public class Ex02 {
 		number.setNums(nums);
 		number.display("All elements: ");
 	}
+	
 }
+
+

@@ -23,7 +23,7 @@ public class Ex07 {
 		numlist.remove(2);
 		System.out.println("All element = "+ numlist);
 		
-		numlist.remove(Integer.valueOf(14));
+		numlist.remove(Integer.valueOf(14)); //การลบโดยระบุ value แทน index ใช้ได้เฉพาะ int
 		System.out.println("All element = "+ numlist);
 		
 		numlist.clear();

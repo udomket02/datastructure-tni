@@ -13,9 +13,11 @@ public class Ex04 {
 			new_nums[i] = nums.getNums()[i+1];
 		}
 		
+		
 		nums.setNums(new_nums);
 		nums.display("\n\nAfter deleted the first index:");	
 
+		
 	}
 
 }
