@@ -20,6 +20,13 @@ public class TodoList {
 		
 		todoList.insert("Go to Gym" );
 		System.out.println("To-Do List = " + todoList.traversal());
+		
+		todoList.remove();
+		todoList.remove(3);
+		todoList.remove(0);
+		System.out.println("To-Do List = " + todoList.traversal());
+		
+		System.out.println("\nBackward Traversal = " + todoList.backwardTraversal());
 
 	}
 
