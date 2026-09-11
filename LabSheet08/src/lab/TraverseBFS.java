@@ -34,7 +34,6 @@ public class TraverseBFS {
 					if(current_node.right != null) {
 						queue.add(current_node.right);
 					}
-					
 					list.add(current_node.data);
 				}
 				
