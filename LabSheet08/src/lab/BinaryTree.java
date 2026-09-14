@@ -128,15 +128,17 @@ public class BinaryTree {
 
 			// queue = [10]
 			int levelSize = queue.size();
-			Node current_node = queue.poll(); // current_node = 10
-
-			parent = current_node; // parent = 10
-			if (parent.data == target) {
-				deleteNode = parent;
-				break;
-			}
+			
 
 			for (int i = 0; i < levelSize; i++) {
+				Node current_node = queue.poll(); // current_node = 10
+
+				parent = current_node; // parent = 10
+				if (parent.data == target) {
+					deleteNode = parent;
+					break;
+				}
+				
 				if (current_node.left != null) {
 					if (current_node.left.data == target) {
 						deleteNode = current_node.left;
@@ -157,8 +159,8 @@ public class BinaryTree {
 
 		}
 
-		System.out.println("Parent = " + parent);
-		System.out.println("DeleteNode = " + deleteNode);
+		//System.out.println("Parent = " + parent.data);
+		//System.out.println("DeleteNode = " + deleteNode.data);
 
 	}
 
